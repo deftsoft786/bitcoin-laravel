@@ -1,0 +1,11 @@
+(function($){
+  $("#login").click(function(){
+    $(".login").fadeIn();
+  });
+  $("#signup").click(function(){
+    $(".signup").fadeIn();
+  });
+  $(".overlay-click").click(function(e){
+    $(".light-box").fadeOut();
+  });
+})(jQuery);

@@ -1,0 +1,2245 @@
+/* Register Fonts */
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-28Thin.otf);
+
+  font-weight: 200;
+
+}
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-42light.otf);
+
+  font-weight: 300;
+
+}
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-66Book.otf);
+
+  font-weight: 400;
+
+}
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-66Book.otf);
+
+  font-weight: 500;
+
+}
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-95SemiBold.otf);
+
+  font-weight: 600;
+
+}
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-128Bold.otf);
+
+  font-weight: 700;
+
+}
+
+@font-face {
+
+  font-family: Wavehaus;
+
+  src: url(../fonts/Wavehaus-158ExtraBold.otf);
+
+  font-weight: 800;
+
+}
+
+
+
+/* Common Styles */
+
+body
+
+{
+
+  font-family: Wavehaus;
+
+}
+
+
+
+/* Header Styling */
+
+header.header
+
+{
+
+  position: relative;
+
+}
+
+.header-background
+
+{
+
+  background-image: url(../images/header-back.jpg);
+
+  background-size: cover;
+
+  background-position: center bottom;
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  height: calc(100% + 40px);
+
+  width: 100%;
+
+}
+
+
+
+.gradient-back
+
+{
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  height: 100%;
+
+  width: 100%;
+
+  background: #1e5799; /* Old browsers */
+
+  background: -moz-linear-gradient(left, #1e5799 0%, #524e97 1%, #26a8c6 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(left, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to right, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#26a8c6',GradientType=1 ); /* IE6-9 */
+
+  z-index: 1000;
+
+  opacity: 0.88;
+
+}
+
+.header-top
+
+{
+
+  padding: 40px 0;
+
+  position: relative;
+
+  z-index: 1001;
+
+}
+
+.header-logo h1
+
+{
+
+  font-size: 25px;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  text-align: center;
+
+  text-transform: uppercase;
+
+  letter-spacing: 1.5px;
+
+  margin: 0;
+
+}
+
+.header-middle
+
+{
+
+  background-color: rgba(255,255,255,0.14);
+
+  position: relative;
+
+  z-index: 1001;
+
+}
+
+.navbar
+
+{
+
+  margin: 0;
+
+  border: 0;
+
+}
+
+.nav
+
+{
+
+  margin-left: -15px;
+
+}
+
+.nav>li>a:focus, .nav>li>a:hover
+
+{
+
+  background-color: transparent;
+
+  color: #fff;
+
+}
+
+.navbar-nav>li>a
+
+{
+
+  line-height: 50px;
+
+}
+
+.nav>li>a
+
+{
+
+  color: #fff;
+
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+  padding-right: 20px;
+
+  padding-left: 20px;
+
+}
+
+.nav>li
+
+{
+
+  position: relative;
+
+}
+
+.nav>li.active::before
+
+{
+
+  content: '';
+
+  background: #fff;
+
+  height: 3px;
+
+  width: 100%;
+
+  position: absolute;
+
+  bottom: 0;
+
+  left: 0;
+
+}
+
+.header-middle .profile
+
+{
+
+  padding: 15px 0;
+
+}
+
+.header-middle .profile img
+
+{
+
+  border-radius: 50px;
+
+  height: 42px;
+
+  width: 42px;
+
+  line-height: 50px;
+
+}
+
+.header-middle .profile h2
+
+{
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  display: inline-block;
+
+  line-height: 50px;
+
+  margin: 0;
+
+  margin-right: 10px;
+
+}
+
+.header-wallet-balances
+
+{
+
+  text-align: right;
+
+}
+
+.header-wallet-balances h2
+
+{
+
+  display: inline-block;
+
+}
+
+.header-wallet-balances .btc
+
+{
+
+  margin-right: 20px;
+
+}
+
+.header-bottom h2
+
+{
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  letter-spacing: 1px;
+
+  color: #fff;
+
+  margin: 0;
+
+}
+
+.header-bottom
+
+{
+
+  padding: 30px 0;
+
+  position: relative;
+
+  z-index: 1001;
+
+}
+
+
+
+/* Body Styles */
+
+.body-box
+
+{
+
+  box-shadow: 0 0 29px 1px rgba(0,0,0,0.18);
+
+  position: relative;
+
+  z-index: 1001;
+
+  background-color: #fff;
+
+  border-radius: 5px;
+
+}
+
+
+
+/* Dashboard */
+
+.bodyRow
+
+{
+
+  padding: 40px 30px;
+
+}
+
+.currency-col h2
+
+{
+
+  display: inline;
+
+  line-height: 66px;
+
+  font-size: 22px;
+
+  margin:0;
+
+  margin-left: 15px;
+
+  letter-spacing: 1px;
+
+  color: #8e898c;
+
+}
+
+.balance-col span
+
+{
+
+  color: #8e898c;
+
+  font-size: 14px;
+
+  display: block;
+
+  position: relative;
+
+  top: -15px;
+
+
+
+}
+
+.balance-col p
+
+{
+
+  color: #24c6dc;
+
+  font-size: 22px;
+
+  margin-top: -3px;
+
+}
+
+.currency-cta-col
+
+{
+
+  text-align: right;
+
+  padding-top: 10px;
+
+}
+
+.currency-cta-col button
+
+{
+
+  border: 0;
+
+  border-radius: 50px;
+
+  padding: 8px 20px;
+
+  color: #fff;
+
+  background-color: #000;
+
+  min-width: 130px;
+
+  margin-left: 20px;
+
+}
+
+.currency-cta-col button.send
+
+{
+
+  background-color: #24c6dc;
+
+}
+
+.currency-cta-col button.get
+
+{
+
+  background-color: #496197;
+
+}
+
+.currency-cta-col button.big
+
+{
+
+  background-color: #24c6dc;
+
+  min-width: 280px;
+
+}
+
+
+
+/* Footer */
+
+.buy-sell-footer
+
+{
+
+  position: relative;
+
+  z-index: 1001;
+
+}
+
+.buy-sell-footer h3
+
+{
+
+  font-size: 25px;
+
+  font-weight: bold;
+
+  color: #fff;
+
+  margin: 0;
+
+  margin-bottom: 20px;
+
+}
+
+.buy-sell-footer img
+
+{
+
+  margin-right: 10px;
+
+}
+
+footer.footer
+
+{
+
+  position: relative;
+
+  padding: 40px 0 0;
+
+}
+
+.footer-background
+
+{
+
+  background-image: url(../images/footer-back.jpg);
+
+  background-size: cover;
+
+  background-position: center bottom;
+
+  position: absolute;
+
+  top: -40px;
+
+  left: 0;
+
+  height: calc(100% + 100px);
+
+  width: 100%;
+
+}
+
+.footer-stats, .exchange-stats
+
+{
+
+  position: relative;
+
+  z-index: 1001;
+
+}
+
+.exchange-stats
+
+{
+
+  text-align: center;
+
+}
+
+.footer-stats h3, .exchange-stats h3
+
+{
+
+  font-size: 25px;
+
+  font-weight: bold;
+
+  color: #fff;
+
+  margin: 0;
+
+  margin-bottom: 20px;
+
+  text-align: center;
+
+}
+
+.exchange-stats h3
+
+{
+
+  color: #e63668;
+
+  margin-bottom: 5px;
+
+}
+
+.stat-line span.tag
+
+{
+
+  color: #33cccc;
+
+  background-color: #fff;
+
+  border-radius: 20px;
+
+  padding: 2px 5px;
+
+  font-size: 12px;
+
+  min-width:40px;
+
+  text-align: center;
+
+  display: inline-block;
+
+}
+
+.exchange-stats .stat-line span.tag
+
+{
+
+  color: #fff;
+
+  vertical-align: text-bottom;
+
+}
+
+.stat-line span.tag.buy
+
+{
+
+  background-color: #33cc33;
+
+}
+
+.stat-line span.tag.sell
+
+{
+
+  background-color: #ff3366;
+
+}
+
+.stat-line span.rate
+
+{
+
+  color: #fff;
+
+  font-size: 20px;
+
+  font-weight: bold;
+
+  margin-left: 10px;
+
+}
+
+.exchange-stats .stat-line span.rate
+
+{
+
+  color: #8e898c;
+
+}
+
+.stat-line img
+
+{
+
+  /*margin-left: 10px;
+
+  margin-top: -10px;-*/
+
+}
+
+
+
+/* History */
+
+.body-table td, .body-table th
+
+{
+
+  text-align: center;
+
+}
+
+.table-container
+
+{
+
+  padding: 30px;
+
+}
+
+.table-container table
+
+{
+
+  border: 1px solid #dee0e4;
+
+  margin: 0;
+
+}
+
+.table-container thead tr
+
+{
+
+  background: #1e5799; /* Old browsers */
+
+  background: -moz-linear-gradient(left, #1e5799 0%, #524e97 1%, #26a8c6 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(left, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to right, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#26a8c6',GradientType=1 ); /* IE6-9 */
+
+}
+
+.table-container td
+
+{
+
+  color: #7b7b7b;
+
+  font-size: 22px;
+
+}
+
+.table-container th
+
+{
+
+  font-size: 22px;
+
+  color: #fff;
+
+  letter-spacing: 1px;
+
+  font-weight: 500;
+
+}
+
+.table-striped>tbody>tr:nth-of-type(odd)
+
+{
+
+  background-color: transparent;
+
+}
+
+.table-striped>tbody>tr:nth-of-type(even)
+
+{
+
+  background-color: #dedede;
+
+}
+
+button.balance-withdraw
+
+{
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  letter-spacing: 1px;
+
+  color: #434444;
+
+  margin: 0;
+
+  background-color: #fff;
+
+  border: 0;
+
+  border-radius: 20px;
+
+  padding: 5px 20px;
+
+  display: inline-block;
+
+  text-align: center;
+
+  margin-right: 20px;
+
+  position: absolute;
+
+  top: -8px;
+
+  left: 50px;
+
+}
+
+
+
+/* Buy BTC/ETH */
+
+.buy-form
+
+{
+
+  text-align: center;
+
+  padding: 50px;
+
+}
+
+.buy-form h1
+
+{
+
+  font-size: 50px;
+
+  margin: 0;
+
+  margin-bottom: 30px;
+
+}
+
+.tab-pills
+
+{
+
+  text-align: center;
+
+}
+
+.tab-pills ul.nav-pills
+
+{
+
+  display: inline-block;
+
+}
+
+.tab-pills li>a, .tab-pills li>a:hover, .tab-pills li>a:active, .tab-pills li>a:focus
+
+{
+
+  border-radius: 50px;
+
+  min-width: 140px;
+
+  line-height: 50px;
+
+  font-size: 22px;
+
+  font-weight: 500;
+
+  background-color: transparent;
+
+  border: 1px solid #8d8d8d;
+
+  color: #000;
+
+  transform: scale(0.8);
+
+}
+
+.nav-pills>li.active>a
+
+{
+
+  color: #fff;
+
+  border: 0;
+
+  background: #1e5799; /* Old browsers */
+
+  background: -moz-linear-gradient(left, #1e5799 0%, #524e97 1%, #26a8c6 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(left, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to right, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#26a8c6',GradientType=1 ); /* IE6-9 */
+
+}
+
+.buy-form-fields
+
+{
+
+  margin: 30px 0;
+
+}
+
+.buy-form-fields .field
+
+{
+
+  width: 250px;
+
+  max-width: 250px;
+
+  display: inline-block;
+
+
+
+}
+
+.buy-form-fields .field span
+
+{
+
+  font-size: 18px;
+
+  display: block;
+
+  text-align: left;
+
+  margin-left: 15px;
+
+  margin-bottom: 5px;
+
+}
+
+.buy-form-fields .field input
+
+{
+
+  border: 1px solid #8d8d8d;
+
+  border-radius: 50px;
+
+  width: 100%;
+
+  text-align: center;
+
+  line-height: 50px;
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+}
+
+.buy-form-fields .field input:disabled
+
+{
+
+  background-color: #e1e1e1;
+
+}
+
+.buy-form-fields span.equals
+
+{
+
+  font-size: 30px;
+
+  line-height: 50px;
+
+  vertical-align: bottom;
+
+  margin: 0 20px;
+
+}
+
+.buy-form .buy-btc-button, .gradient-button
+
+{
+
+  background: #1e5799; /* Old browsers */
+
+  background: -moz-linear-gradient(left, #1e5799 0%, #524e97 1%, #26a8c6 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(left, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to right, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#26a8c6',GradientType=1 ); /* IE6-9 */
+
+  border-radius: 50px;
+
+  min-width: 250px;
+
+  line-height: 50px;
+
+  font-size: 22px;
+
+  font-weight: 500;
+
+  color: #fff;
+
+  border: 0;
+
+  margin: 30px 0;
+
+}
+
+
+
+/* Home Page [Header] */
+
+header.home-header
+
+{
+
+  background-image: url(../images/home-back.jpg);
+
+  background-size: cover;
+
+  background-position: center center;
+
+  padding-bottom: 30px;
+
+}
+
+.home-header .navbar-brand
+
+{
+
+  font-size: 25px;
+
+  font-weight: 600;
+
+  color: #fff;
+
+  padding: 40px 0;
+
+  height: auto;
+
+}
+
+.home-header .nav>li>a
+
+{
+
+  padding: 42px 30px;
+
+  line-height: 14px;
+
+  font-size: 14px;
+
+}
+
+.home-header .nav>li::before
+
+{
+
+  display: none;
+
+}
+
+.home-header .nav>li.dropdown>a
+
+{
+
+  border: 1px solid #fff;
+
+  padding: 0;
+
+  line-height: 40px;
+
+  padding: 0 20px;
+
+  border-radius: 50px;
+
+  margin-top: 27px;
+
+}
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover
+
+{
+
+  background-color: transparent;
+
+}
+
+.home-header .nav>li.active>a
+
+{
+
+  color: #00253b;
+
+}
+
+.header-content
+
+{
+
+  text-align: center;
+
+  color: #fff;
+
+  text-transform: uppercase;
+
+  padding: 100px 0 50px;
+
+}
+
+.header-content h2
+
+{
+
+  font-size: 30px;
+
+  margin: 0;
+
+  margin-bottom: 10px;
+
+  font-weight: 500;
+
+  letter-spacing: 2px;
+
+}
+
+.header-content h1
+
+{
+
+  font-size: 50px;
+
+  margin: 0;
+
+  margin-bottom: 40px;
+
+  font-weight: bold;
+
+  letter-spacing: 2px;
+
+}
+
+.header-content .cta-buttons
+
+{
+
+  padding-top: 20px;
+
+}
+
+.header-content button
+
+{
+
+  background-color: #fff;
+
+  font-size: 16px;
+
+  color: #000;
+
+  border:0;
+
+  border-radius: 50px;
+
+  text-transform: uppercase;
+
+  min-width: 150px;
+
+  line-height: 45px;
+
+}
+
+.header-content button:first-child
+
+{
+
+  margin-right: 30px;
+
+}
+
+/* Home Page [Body] */
+
+.home-body
+
+{
+
+  padding: 50px 0;
+
+}
+
+.home-body .icon-table .left
+
+{
+
+  text-align: left;
+
+}
+
+.home-body .icon-table .middle
+
+{
+
+  text-align: center;
+
+}
+
+.home-body .icon-table .right
+
+{
+
+  text-align: right;
+
+}
+
+.home-body .icon-box
+
+{
+
+  display: inline-block;
+
+  text-align: center;
+
+}
+
+.home-body .icon-box h3
+
+{
+
+  font-size: 25px;
+
+  color: #2b9ec1;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+}
+
+.home-body .icon-box span
+
+{
+
+  font-size: 20px;
+
+  color: #8e898c;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+}
+
+.home-body header
+
+{
+
+  text-align: center;
+
+  margin-bottom: 70px;
+
+}
+
+.home-body header h1
+
+{
+
+  font-size: 50px;
+
+  font-weight: 600;
+
+  color: #3a3a3a;
+
+}
+
+.home-body header p
+
+{
+
+  color: #5e5e5e;
+
+  font-size: 18px;
+
+  font-weight: 500;
+
+  max-width: 700px;
+
+  display: inline-block;
+
+  margin-top: 10px;
+
+}
+
+.home-body .icon-table
+
+{
+
+  margin-bottom: 100px;
+
+}
+
+/*.body-box2
+
+{
+
+  position: relative;
+
+  z-index: 1001;
+
+}*/
+
+.body-box2 .body-inner
+
+{
+
+  background: #1e5799; /* Old browsers */
+
+  background: -moz-linear-gradient(left, #1e5799 0%, #524e97 1%, #26a8c6 100%); /* FF3.6-15 */
+
+  background: -webkit-linear-gradient(left, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* Chrome10-25,Safari5.1-6 */
+
+  background: linear-gradient(to right, #1e5799 0%,#524e97 1%,#26a8c6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#26a8c6',GradientType=1 ); /* IE6-9 */
+
+  padding: 40px;
+
+  box-shadow: 0 0 20px 5px rgba(255,255,255,0.18);
+
+}
+
+.body-box2 .body-inner h2
+
+{
+
+  text-transform: uppercase;
+
+  color: #fff;
+
+  font-size: 25px;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  text-align: center;
+
+}
+
+.body-box2 .clients
+
+{
+
+  width: 100%;
+
+  display: inline-block;
+
+  margin: 40px 0 0;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+}
+
+.body-box2 .client
+
+{
+
+  display: inline-block;
+
+  background-color: #fff;
+
+  border-radius: 10px;
+
+  min-width: 150px;
+
+  height: 85px;
+
+  text-align: center;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+}
+
+.body-box2 .client img
+
+{
+
+  line-height: 85px;
+
+}
+
+
+
+/* Home Page [Footer] */
+
+.home-footer
+
+{
+
+  position: relative;
+
+  color: #fff;
+
+  text-align: center;
+
+  padding: 0;
+
+  padding: 60px 0;
+
+  z-index: -1;
+
+}
+
+.home-footer-body
+
+{
+
+  position: relative;
+
+  z-index: 1001;
+
+}
+
+.home-footer .footer-background
+
+{
+
+  height: calc(100% + 40px);
+
+}
+
+.home-footer-body h1
+
+{
+
+  font-size: 30px;
+
+  color: #fff;
+
+  font-weight: bold;
+
+  letter-spacing: 1px;
+
+  margin:0;
+
+  margin-bottom: 20px;
+
+}
+
+.home-footer-body .social i
+
+{
+
+  height: 40px;
+
+  width: 40px;
+
+  border: 2px solid #fff;
+
+  border-radius: 100px;
+
+  padding-top: 8px;
+
+  font-size: 20px;
+
+  margin-right: 10px;
+
+}
+
+.home-footer-body .social i:last-child
+
+{
+
+  margin-right: 0;
+
+}
+
+.home-footer-body .copyright p
+
+{
+
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+  font-size: 18px;
+
+  margin: 0;
+
+  margin-top: 20px;
+
+}
+
+
+
+/* News Page */
+
+.newsBlock
+
+{
+
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.21);
+
+  margin-bottom: 60px;
+
+  width: 100%;
+
+}
+
+.newsBlock .news-thumbnail
+
+{
+
+  background-size: cover;
+
+  background-position: center center;
+
+  height: 330px;
+
+  margin:0;
+
+  margin-bottom: 10px;
+
+  max-width: 100%;
+
+}
+
+.newsBlock .metadata
+
+{
+
+  color: #373239;
+
+  font-size: 15px;
+
+}
+
+.newsBlock .content
+
+{
+
+  max-width: 100%;
+
+  width: 350px;
+
+  padding: 10px 15px;
+
+}
+
+.newsBlock h2
+
+{
+
+  color: #373239;
+
+  font-size: 20px;
+
+  margin: 12px 0 10px;
+
+}
+
+.newsBlock p
+
+{
+
+  color: #373239;
+
+  font-size: 15px;
+
+}
+
+.readmore
+
+{
+
+  color: #1e869e;
+
+}
+
+
+
+/* Exchange Rate */
+
+.exchangeRate header p
+
+{
+
+  font-size: 15px;
+
+  color: #3a3a3a;
+
+  font-weight: 600;
+
+  text-align: center;
+
+}
+
+.exchange-block
+
+{
+
+  text-align: center;
+
+}
+
+.exchange-block>img
+
+{
+
+  margin-bottom: 20px;
+
+}
+
+
+
+/* Bitcoin QR Code */
+
+.qr-code
+
+{
+
+  padding: 40px;
+
+  text-align: center;
+
+}
+
+.qr-code .qrcode
+
+{
+
+  margin: 40px 0;
+
+}
+
+.qr-code .address
+
+{
+
+  color: #6785ab;
+
+}
+
+
+
+/* Send Bitcoins */
+
+.exchange-textbox, .exchange-select
+
+{
+
+  border: 1px solid #8d8d8d;
+
+  border-radius: 50px;
+
+  width: 100%;
+
+  padding: 0 20px;
+
+  line-height: 50px;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  -webkit-appearance: none;
+
+   -moz-appearance:    none;
+
+   appearance:         none;
+
+}
+
+.exchange-select-block::after
+
+{
+
+  content: '';
+
+  border: 7px solid transparent;
+
+  border-top: 10px solid #8d8d8d;
+
+  height: 1px;
+
+  width: 1px;
+
+  position: absolute;
+
+  right: 37px;
+
+  top: 22px;
+
+}
+
+.send-bitcoins
+
+{
+
+  padding: 40px;
+
+  text-align: center;
+
+}
+
+.send-bitcoins header h1
+
+{
+
+  margin-bottom: 50px;
+
+}
+
+.send-bitcoins .gradient-button
+
+{
+
+  margin-top: 50px;
+
+}
+
+
+
+/* Trading */
+
+.small-body-table th, .small-body-table td
+
+{
+
+  font-size: 14px;
+
+  text-align: center;
+
+}
+
+.small-table-heading
+
+{
+
+  font-size: 25px;
+
+  margin: 0;
+
+  text-align: center;
+
+  margin-bottom: 30px;
+
+}
+
+.trading
+
+{
+
+  padding: 40px;
+
+}
+
+.trading .table-container
+
+{
+
+  padding: 0;
+
+}
+
+.trading-graph img
+
+{
+
+  max-width: 100%;
+
+}
+
+.trading-dropdown span
+
+{
+
+  color: #aaa;
+
+  font-weight: 700;
+
+  font-size: 15px;
+
+}
+
+.trading-dropdown
+
+{
+
+  margin-bottom: 30px;
+
+}
+
+.filter-select
+
+{
+
+  position: relative;
+
+  display: inline-block;
+
+  margin-left: 20px;
+
+}
+
+.filter-select select
+
+{
+
+  -webkit-appearance: none;
+
+  -moz-appearance:    none;
+
+  appearance:         none;
+
+  border: 0;
+
+  border-radius: 50px;
+
+  padding: 2px 30px;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  color: #aaa;
+
+}
+
+.filter-select::after
+
+{
+
+  content: '';
+
+  border: 3px solid transparent;
+
+  border-top: 5px solid #8d8d8d;
+
+  height: 1px;
+
+  width: 1px;
+
+  position: absolute;
+
+  right: 9px;
+
+  top: 11px;
+
+}
+
+
+
+/* Withdraw */
+
+.withdraw .field
+
+{
+
+  text-align: center;
+
+}
+
+.withdraw .equals
+
+{
+
+  display: block;
+
+  opacity: 0;
+
+  visibility: 0;
+
+}
+
+.buy-form-fields .wallet-text
+
+{
+
+  font-weight: 600;
+
+  font-size: 20px;
+
+  letter-spacing: 1px;
+
+  color: #000;
+
+  margin: 20px 0;
+
+}
+
+.withdraw-form h3
+
+{
+
+  text-align: left;
+
+  margin-left: 50px;
+
+}
+
+.withdraw-options
+
+{
+
+  margin-top: 50px;
+
+  text-align: left;
+
+  margin-left: 50px;
+
+}
+
+.withdraw-options label
+
+{
+
+  font-weight: 500;
+
+  font-size: 20px;
+
+  margin-left: 20px;
+
+  margin-bottom: 20px;
+
+}
+
+.withdraw-options span.tag
+
+{
+
+  color: #000;
+
+  background-color: #ddd;
+
+  border-radius: 20px;
+
+  padding: 2px 15px;
+
+  font-size: 12px;
+
+  min-width:40px;
+
+  text-align: center;
+
+  display: inline-block;
+
+  margin-left: 10px;
+
+}
+
+.withdraw-fields input
+
+{
+
+  margin-bottom: 20px;
+
+}
+
+
+
+/* Login / Signup */
+
+.light-box
+
+{
+
+  width: 100%;
+
+  height: 100vh;
+
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+}
+
+.light-box .overlay
+
+{
+
+  background-color: rgba(0,0,0,0.5);
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  width: 100%;
+
+  height: 100%;
+
+}
+
+.lightbox-box
+
+{
+
+  max-width: 100%;
+
+  background-color: #fff;
+
+  position: relative;
+
+  text-align: center;
+
+  padding: 40px;
+
+  border-radius: 5px;
+
+}
+
+.lightbox-box h1
+
+{
+
+  font-size: 30px;
+
+  font-weight: 700;
+
+  letter-spacing: 1px;
+
+  margin: 0 0 40px;
+
+}
+
+.lightbox-box input
+
+{
+
+  padding: 20px;
+
+  font-size: 14px;
+
+  color: #1d1b1b;
+
+  max-width: 100%;
+
+  width: 350px;
+
+  display: block;
+
+  margin-bottom: 30px;
+
+  border-radius: 5px;
+
+  border: 1px solid #c4c7c8;
+
+}
+
+.lightbox-box .gradient-button
+
+{
+
+  width: 100%;
+
+  margin-top: 0;
+
+}
+
+.lightbox-box .social-buttons
+
+{
+
+  display: flex;
+
+  justify-content: space-between;
+
+}
+
+.lightbox-box .social-buttons button
+
+{
+
+  border-radius: 50px;
+
+  width: 100%;
+
+  line-height: 50px;
+
+  font-size: 22px;
+
+  font-weight: 500;
+
+  color: #fff;
+
+  border: 0;
+
+  margin: 0 0 20px;
+
+  text-align: left;
+
+}
+
+.lightbox-box .social-buttons button i
+
+{
+
+  background-color: #fff;
+
+  border-radius: 40px;
+
+  width: 40px;
+
+  height: 40px;
+
+  color: #3b5998;
+
+  padding-top: 10px;
+
+  text-align: center;
+
+  margin-right: 10px;
+
+  margin-top: 6px;
+
+  margin-left: 2px;
+
+}
+
+.lightbox-box .social-buttons .facebook-login
+
+{
+
+  background-color: #3b5998;
+
+  margin-right: 10px;
+
+}
+
+.lightbox-box .social-buttons .facebook-login i
+
+{
+
+  color: #3b5998;
+
+}
+
+.lightbox-box .social-buttons .twitter-login
+
+{
+
+  background-color: #1da1f2;
+
+}
+
+.lightbox-box .social-buttons .twitter-login i
+
+{
+
+  color: #1da1f2;
+
+}
+
+.signup-option
+
+{
+
+  font-size: 18px;
+
+  margin-top: 20px;
+
+}
+
+.overlay-click
+
+{
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-color: transparent;
+
+}
+
+.login
+
+{
+
+  display: none;
+
+}
+
+.signup
+
+{
+
+  display: none;
+
+}
+
+.col-2 {
+
+    position: relative;
+
+    z-index: -1;
+
+}
+.middle {
+    position: relative;
+    z-index: -1;
+}
+.col-1 {
+    position: relative;
+    z-index: -1;
+}
+
+/*----------media query------------*/
+
+@media screen and (min-width:320px) and (max-width:479px){
+.header-content button:first-child {
+    margin-right:0px;
+    margin: 0px 0px 10px 0px;
+}
+
+}
